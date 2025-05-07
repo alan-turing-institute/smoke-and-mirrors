@@ -11,7 +11,7 @@ The current prototype focuses on the [Modbus](https://en.wikipedia.org/wiki/Modb
 
 - **LLM response generation.** A [Jupyter notebook](notebooks/llm-response-generation.ipynb) demonstrating several approaches to generating Modbus responses by direct LLM prompting with requests in the form of hexadecimal strings.
 
-- **LLM code generation.** A [Jupyter notebook](notebooks/llm-code-generation.ipynb) containing prompts for generating a standalone Python module capable of handling requests in the Modbus protocol. The automatically-generated code can be found in [`modbus_handler.py`](src/llm-generated-code/modbus_handler.py).
+- **LLM code generation.** A [Jupyter notebook](notebooks/llm-code-generation.ipynb) containing prompts for generating a standalone Python module capable of handling requests in the Modbus protocol. An example of automatically-generated code can be found in [`modbus_handler.py`](src/llm-generated-code/modbus_handler.py).
 
 Note: these notebooks make calls to the OpenAI API, which requires access to an [API key](https://platform.openai.com/docs/api-reference/authentication). To do this, create a file named `.env` at the root of the repository, containing the following line:
 ```
