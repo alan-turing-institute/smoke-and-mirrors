@@ -1,11 +1,28 @@
 # smoke-and-mirrors
-Prototype dynamic AI emulators for OT hardware
+Prototype dynamic AI emulators for OT hardware.
+
+## Description
+
+This repository contains code samples relating to the use of LLMs for emulating devices on industrial Operational Technology (OT) networks.
+
+The current prototype focuses on the [Modbus](https://en.wikipedia.org/wiki/Modbus) protocol, the *de facto* standard in industrial cyber-physical systems.
+
+## Contents
+
+- **LLM response generation.** A [Jupyter notebook](notebooks/llm-response-generation.ipynb) demonstrating several approaches to generating Modbus responses by direct LLM prompting with requests in the form of hexadecimal strings.
+
+- **LLM code generation.** A [Jupyter notebook](notebooks/llm-code-generation.ipynb) containing prompts for generating a standalone Python module capable of handling requests in the Modbus protocol. An example of automatically-generated code can be found in [`modbus_handler.py`](src/llm-generated-code/modbus_handler.py).
+
+Note: these notebooks make calls to the OpenAI API, which requires access to an [API key](https://platform.openai.com/docs/api-reference/authentication). To do this, create a file named `.env` at the root of the repository, containing the following line:
+```
+OPENAI_API_KEY="<INSERT YOUR KEY HERE>"
+```
 
 ## Installation
 
 To install this package with dev dependencies:
 ```bash
-pip install -e ".[dev]"
+pip install -e ".[dev,modbus]"
 ```
 
 Install pre-commit hooks with:
