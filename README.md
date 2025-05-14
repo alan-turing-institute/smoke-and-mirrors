@@ -1,4 +1,4 @@
-# smoke-and-mirrors
+# Smoke and Mirrors
 Prototype dynamic AI emulators for OT hardware.
 
 ## Description
