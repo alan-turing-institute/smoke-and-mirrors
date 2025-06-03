@@ -2,10 +2,11 @@
 Prototype dynamic AI emulators for OT hardware.
 
 ## Description
-
-This repository contains code samples relating to the use of LLMs for emulating devices on industrial Operational Technology (OT) networks.
+ 
+This repository contains code samples relating to the use of LLMs for emulating devices on industrial Operational Technology (OT) networks. This is the sanitised version of our full codebase. If you require access to the full version, please get in touch.
 
 The current prototype focuses on the [Modbus](https://en.wikipedia.org/wiki/Modbus) protocol, the *de facto* standard in industrial cyber-physical systems.
+
 
 ## Contents
 
