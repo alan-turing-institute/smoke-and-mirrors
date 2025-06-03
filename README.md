@@ -1,6 +1,8 @@
 # Smoke and Mirrors
 Prototype dynamic AI emulators for OT hardware.
 
+May 2025: [Technical Snapshot](https://airgapped.substack.com/p/update-may-2025-technical-snapshot)
+
 ## Description
  
 This repository contains code samples relating to the use of LLMs for emulating devices on industrial Operational Technology (OT) networks. 
